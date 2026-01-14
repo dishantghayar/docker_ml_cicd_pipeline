@@ -20,5 +20,5 @@ jobs:
 
             - name: Run Tests
               run: pytest tests/
-            - name: Build Docker Image
+            - name: Build Docker Iamge
               run: docker build -t ml_spam_app
